@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #4f4f4f;
+}
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    background: rgba(51, 51, 51, 0.856);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0;
+    font-weight: bold;
+    background: none;
+    margin-left: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    background: none;
+    z-index: 1;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background: none;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+
+a.active, a:hover{
+    color: rgb(172, 172, 172);
+    transition: 0.5s;
+    background: none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+    background: none;
+    transition: 0.3s;
+}
+#check{
+    display: none;
+    background: none;
+}
+.checkbtn:hover{
+    color: #666666;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+        background: none;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 800px){
+    .checkbtn{
+        display: block;
+        background: none;
+    }
+    .navul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a:active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .BackIlldiv{
+        display: none;
+        text-align: none;
+        justify-content: none;
+    }
+}
+.contact{
+    background: none;
+}
+
+.about{
+    background: none;
+}
+#ImageGal{
+    height: 360px;
+    margin: 10px;
+    width: 360px;
+    transform: scale(1);
+    transition: 0.3 all;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 15px;
+}
+.galerie{
+    text-align: center;
+    margin-top: 50px;
+    background: #3b3b3b;
+    padding-top: 20px;
+    transform: translateX(16%);
+    width: 75%;
+    border-radius: 20px;
+}
+#ImageGal:hover{
+    transform: scale(1.1);
+}
+a{
+    background: none;
+}

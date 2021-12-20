@@ -1,0 +1,14 @@
+<i class="fab fa-twitter"></i>
+<i class="fab fa-youtube"></i>
+
+<script src="https://kit.fontawesome.com/646a86caa2.js" crossorigin="anonymous"></script>
+
+image
+<i class="fas fa-images"></i>
+pencil
+<i class="fas fa-pencil-ruler"></i>
+
+ <img src="Images/Galerie_Style_1Plan de travail 1.png" id="ImageGal" alt="">
+        <img src="Images/Galerie_Style_2Plan de travail 1.png" id="ImageGal" alt="">
+        <img src="Images/Galerie_Style_3Plan de travail 1.png" id="ImageGal" alt="">
+        <img src="Images/Galerie_Style_4Plan de travail 1.png" id="ImageGal" alt="">
